@@ -1,5 +1,5 @@
-Thoracometer
-#hacktoberfest_ju
+# Thoracometer
+hacktoberfest_ju
 Creating uniques and contributing them in the Open Source !!
 
 ---------------------
