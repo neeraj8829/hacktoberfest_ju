@@ -10,7 +10,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L21.8,144C43.6,128,87,96,131,74.7C174.5,53,218,43,262,37.3C305.5,32,349,32,393,64C436.4,96,480,160,524,165.3C567.3,171,611,117,655,85.3C698.2,53,742,43,785,37.3C829.1,32,873,32,916,42.7C960,53,1004,75,1047,80C1090.9,85,1135,75,1178,101.3C1221.8,128,1265,192,1309,208C1352.7,224,1396,192,1418,176L1440,160L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
   
 <section class="text-gray-600 body-font">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-5 py-15 mx-auto">
     <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center rounded-lg bg white">
       <div class="border border-gray-200 p-6 rounded-lg bg-white">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,160L21.8,144C43.6,128,87,96,131,74.7C174.5,53,218,43,262,37.3C305.5,32,349,32,393,64C436.4,96,480,160,524,165.3C567.3,171,611,117,655,85.3C698.2,53,742,43,785,37.3C829.1,32,873,32,916,42.7C960,53,1004,75,1047,80C1090.9,85,1135,75,1178,101.3C1221.8,128,1265,192,1309,208C1352.7,224,1396,192,1418,176L1440,160L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path></svg>
@@ -58,11 +58,12 @@
       </div>
       
 </section>
-
-<h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900 text-center"> Click on the button below to scan your X-ray </h1>
+<div class="border border-gray-200 p-6 rounded-lg bg-black">
+<h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white text-center"> Click on the button below to scan your X-ray </h1>
 <hr>
 <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" type="button" onclick="init()">Start</button>
 <br> <hr> <br>
+</div>
 <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" id="webcam-container"></div>
 <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center" id="label-container"></div>
     <hr>
